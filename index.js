@@ -1,19 +1,2 @@
-//Запускает таймер
-function go() {
-  window.timerId = window.setInterval(timer, 300);
-  document.getElementById("go").disabled = true;
-}
-//Останавливает таймер
-function stop() {
-  window.clearInterval(window.timerId);
-}
-function timer() {
-  var test = document.getElementById("test");
-  var number = parseInt(test.innerHTML) - 1;
-  test.innerHTML = number;
-  if (number == 0) {
-    stop();
-    var timetStop = document.getElementById("stop");
-    timetStop.innerHTML = "Обратный отсчет завершен.";
-  }
-}
+let elem = document.getElementById("elem");
+let;
