@@ -7,26 +7,23 @@
   </head>
 
   <body>
-    <img src="img/wordarta.png" />
-    <div class="currency">
-      <label for="TRY">&#127481;&#127479;</label>
-      <input type="tel" id="TRY" name="TRY" />
-    </div>
-
-    <div class="currency">
-      <label for="USD">&#127482;&#127480;</label>
-      <input type="number" id="USD" name="USD" />
-    </div>
-
-    <div class="currency">
-      <label for="RUB">&#127479;&#127482;</label>
-      <input type="number" id="RUB" name="RUB" />
-    </div>
-
-    <div class="currency">
-      <label for="GEL">&#127468;&#127466;</label>
-      <input type="number" id="GEL" name="GEL" />
-    </div>
     <script src="index.js"></script>
+    <img src="img/wordarta.png" />
+    <table>
+      <tr>
+        <td><label class="flag" for="TRY">&#127481;&#127479;</label></td>
+        <td><input class="currency" type="number" id="TRY" name="TRY" /></td>
+      </tr>
+      <tr>
+        <td><label class="flag" for="USD">&#127482;&#127480;</label></td>
+        <td><input class="currency" type="number" id="USD" name="USD" /></td>
+      </tr>
+      <tr>
+        <td><label class="flag" for="RUB">&#127479;&#127482;</label></td>
+        <td><input class="currency" type="number" id="RUB" name="RUB" /></td>
+      </tr>
+      <td><label class="flag" for="GEL">&#127468;&#127466;</label></td>
+      <td><input class="currency" type="number" id="GEL" name="GEL" /></td>
+    </table>
   </body>
 </html>
