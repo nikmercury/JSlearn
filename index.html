@@ -7,23 +7,35 @@
   </head>
 
   <body>
-    <script src="index.js"></script>
+    <marquee><img src="img/lunaa.jpeg" /></marquee>
     <img src="img/wordarta.png" />
     <table>
       <tr>
         <td><label class="flag" for="TRY">&#127481;&#127479;</label></td>
-        <td><input class="currency" type="number" id="TRY" name="TRY" /></td>
+        <td>
+          <input class="currency" type="number" id="TRY" name="TRY" value="" />
+        </td>
       </tr>
       <tr>
         <td><label class="flag" for="USD">&#127482;&#127480;</label></td>
-        <td><input class="currency" type="number" id="USD" name="USD" /></td>
+        <td>
+          <input class="currency" type="number" id="USD" name="USD" />
+        </td>
       </tr>
       <tr>
         <td><label class="flag" for="RUB">&#127479;&#127482;</label></td>
-        <td><input class="currency" type="number" id="RUB" name="RUB" /></td>
+        <td>
+          <input class="currency" type="number" id="RUB" name="RUB" />
+        </td>
       </tr>
       <td><label class="flag" for="GEL">&#127468;&#127466;</label></td>
-      <td><input class="currency" type="number" id="GEL" name="GEL" /></td>
+      <td>
+        <input class="currency" type="number" id="GEL" name="GEL" />
+      </td>
     </table>
+    <div class="button">
+      <button class="button" onclick="buttonClick()">Нажми на меня</button>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>

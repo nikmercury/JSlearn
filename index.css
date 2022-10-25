@@ -2,17 +2,16 @@ body {
   background-color: khaki;
 }
 .currency {
-  width: 100%;
-  padding: 2px;
+  width: 90%;
+  padding: 2%;
   justify-content: center;
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Comic Sans MS";
 }
 
 .flag {
   width: 100%;
   font-size: 24px;
-  line-height: 2em;
 }
 
 img {
@@ -22,4 +21,13 @@ img {
 
 table {
   width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 10px;
+  font-family: "Comic Sans MS";
+  color: gold;
 }
