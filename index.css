@@ -8,8 +8,8 @@ body {
   background-color: khaki;
 }
 .currency {
-  width: 95%;
-  padding: 1%;
+  width: auto;
+  padding: 2%;
   justify-content: center;
   font-size: 48px;
   font-family: "Comic Sans MS";
@@ -17,10 +17,10 @@ body {
 
 .flag {
   width: 100%;
-  font-size: 48px;
+  height: auto;
 }
 
-img {
+.wordart {
   max-width: 100%;
   height: auto;
 }
