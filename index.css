@@ -8,7 +8,7 @@ body {
   background-color: khaki;
 }
 .currency {
-  width: auto;
+  width: 95%;
   padding: 2%;
   justify-content: center;
   font-size: 48px;
