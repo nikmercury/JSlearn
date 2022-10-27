@@ -17,7 +17,10 @@ body {
 }
 
 .flag {
-  font-size: large;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .wordart {

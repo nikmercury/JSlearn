@@ -10,7 +10,19 @@ TL.oninput = function () {
 };
 
 USD.oninput = function () {
-  TL.value = (USD.value * 18.5).toFixed(2);
+  TL.value = (USD.value * 18.5).toFixed(1);
   RUB.value = (USD.value * 73).toFixed(0);
-  GEL.value = (USD.value * 3).toFixed(1);
+  GEL.value = (USD.value * 3).toFixed(0);
+};
+
+RUB.oninput = function () {
+  USD.value = (RUB.value / 73).toFixed(2);
+  TL.value = (USD.value * 18.5).toFixed(2);
+  GEL.value = (USD.value * 3).toFixed(2);
+};
+
+GEL.oninput = function () {
+  USD.value = (GEL.value / 3).toFixed(2);
+  TL.value = (USD.value * 18.5).toFixed(2);
+  RUB.value = (USD.value * 73).toFixed(2);
 };
