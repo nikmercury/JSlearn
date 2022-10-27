@@ -36,3 +36,8 @@ table {
   font-family: "Comic Sans MS";
   color: gold;
 }
+
+.marquee {
+    height="100";
+    width="100"
+}
