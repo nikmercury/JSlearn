@@ -28,11 +28,3 @@ body {
 table {
   width: 100%;
 }
-
-.button {
-  display: flex;
-  justify-content: center;
-  font-size: 48px;
-  font-family: "Comic Sans MS";
-  color: gold;
-}
