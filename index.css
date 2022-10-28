@@ -13,14 +13,16 @@ body {
   padding: 8%;
   justify-content: center;
   font-size: 48px;
-  font-family: "Comic Sans MS";
+  font-family: Arial black, Helvetica, sans-serif;
+  color: blue;
 }
 
 .flag {
   writing-mode: vertical-lr;
   text-orientation: upright;
   font-size: xx-large;
-  font-family: "Anton";
+  font-family: Arial black, Helvetica, sans-serif;
+  color: blue;
 }
 
 .wordart {
